@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'MasterPod.podspec'
+  s.name             = 'MasterPod'
   s.version          = '0.1.0'
   s.summary          = 'This pod is used for testing nested podspecs'
 
