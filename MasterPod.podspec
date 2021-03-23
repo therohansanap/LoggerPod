@@ -18,7 +18,8 @@ We will use this pod to test how to work with nested podspecs. All the best Roha
 
 
   s.subspec 'LoggerPodSub' do |lps|
-    lps.dependency 'LoggerPod', :path => 'LoggerPod/'
+    # lps.dependency 'LoggerPod', :path => 'LoggerPod/'
+    lps.source_files = 'LoggerPod/LoggerPod/Classes/**/*'
   end
 
 end
