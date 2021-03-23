@@ -31,7 +31,7 @@ We will use this pod to test how to work with nested podspecs. All the best Roha
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = '../LoggerPod/Classes/**/*'
+  s.source_files = 'LoggerPod/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LoggerPod' => ['LoggerPod/Assets/*.png']
