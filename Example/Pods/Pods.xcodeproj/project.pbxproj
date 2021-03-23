@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0110BB1AE9DA42391B092A0F15AD25CE /* Pods-LoggerPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F24A723A0796BE3620582F8DF17AF8AF /* Pods-LoggerPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07BD515B3AF8FE55859E1D51475D84B0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F78E6F80F165932F27D8DCB0BA3538 /* ReplaceMe.swift */; };
 		17C0B9F401128A9BEE2FDBE2A12FD7FE /* Pods-LoggerPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F378367A7A817AA611876FB8DAA76B /* Pods-LoggerPod_Example-dummy.m */; };
+		1C2F4E68260A2CD300080403 /* LoggerPodDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2F4E67260A2CD300080403 /* LoggerPodDummy.swift */; };
 		278752DF26F1F5CF3D56CB1824BF9DFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		35C23197771835CDC5CDBE9D7B15B333 /* Pods-LoggerPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C341D2AD362DB9BA16D5DDDEE7D8C2 /* Pods-LoggerPod_Tests-dummy.m */; };
 		35F1C5843467D385FF457D2B4D1FB26A /* LoggerPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F80DE6EA5A8C6188D773511A8B70A106 /* LoggerPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,30 +38,30 @@
 
 /* Begin PBXFileReference section */
 		003001409A9465C57F4C6B965873D841 /* LoggerPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoggerPod-Info.plist"; sourceTree = "<group>"; };
-		033B491878F57F430D506A9B7D5124C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		09DF61B4C42897336A7ECDBFBA2B7F32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		033B491878F57F430D506A9B7D5124C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09DF61B4C42897336A7ECDBFBA2B7F32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0D2FAFE15F4ADB75A3623558CCD4C8C4 /* Pods-LoggerPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoggerPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26ED044A875E40AF84CE95FEC056E7ED /* Pods_LoggerPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoggerPod_Tests.framework; path = "Pods-LoggerPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B90F42CA5CE71DC3F4A3B25747C944F /* LoggerPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoggerPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C2F4E67260A2CD300080403 /* LoggerPodDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoggerPodDummy.swift; path = LoggerPod/Classes/LoggerPodDummy.swift; sourceTree = "<group>"; };
+		26ED044A875E40AF84CE95FEC056E7ED /* Pods_LoggerPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoggerPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B90F42CA5CE71DC3F4A3B25747C944F /* LoggerPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoggerPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C7E65233E800D688A2A1F1C9A1857C9 /* Pods-LoggerPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoggerPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		414098166052C234EA3DC707B84588BB /* Pods-LoggerPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoggerPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49B932E14C066C91ABF11DF091AC910E /* LoggerPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoggerPod.debug.xcconfig; sourceTree = "<group>"; };
 		63F045904F1A826F8A203E8B2F5C453C /* Pods-LoggerPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoggerPod_Example.modulemap"; sourceTree = "<group>"; };
 		69C341D2AD362DB9BA16D5DDDEE7D8C2 /* Pods-LoggerPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoggerPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		6B03F1F448AA11203D66C15414655D18 /* Pods-LoggerPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoggerPod_Example-Info.plist"; sourceTree = "<group>"; };
-		72E88F29972C31C7FD423CE99D2EFE96 /* Pods_LoggerPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoggerPod_Example.framework; path = "Pods-LoggerPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E88F29972C31C7FD423CE99D2EFE96 /* Pods_LoggerPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoggerPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78F378367A7A817AA611876FB8DAA76B /* Pods-LoggerPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoggerPod_Example-dummy.m"; sourceTree = "<group>"; };
-		7FBC9CDBB83613C113F9D71A14732F7D /* LoggerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoggerPod.framework; path = LoggerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBC9CDBB83613C113F9D71A14732F7D /* LoggerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD57E59F8502D0FD26D5FC5764BAC09 /* Pods-LoggerPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoggerPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9418DD91FEB54A728FDA6A66A96D7A82 /* LoggerPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoggerPod-dummy.m"; sourceTree = "<group>"; };
 		9B639CC424572C063E8554354CDB2017 /* Pods-LoggerPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoggerPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F66B4A93E068778930F760A7948DFF2 /* Pods-LoggerPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoggerPod_Tests.modulemap"; sourceTree = "<group>"; };
 		A4F38E1518C56E0B72FB570163FA6F99 /* Pods-LoggerPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoggerPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A9425A31E9AA11F7BA9D79B98205AECF /* Pods-LoggerPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoggerPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A998474361458150B7F12AA09B8EB932 /* Pods-LoggerPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoggerPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B1F78E6F80F165932F27D8DCB0BA3538 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LoggerPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B28B975BE1AB62FB48478BEAD2E355FE /* Pods-LoggerPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoggerPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		B316071B379729DCBA2903EAE41B7C7F /* Pods-LoggerPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoggerPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA96D1F4AF66B4B4E64ECBCFEAF3C7A3 /* LoggerPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoggerPod.modulemap; sourceTree = "<group>"; };
@@ -164,9 +164,9 @@
 		5174E4F1EE267DFDC5C52566F601061D /* LoggerPod */ = {
 			isa = PBXGroup;
 			children = (
-				B1F78E6F80F165932F27D8DCB0BA3538 /* ReplaceMe.swift */,
 				32EFF4197731A2E44C47A17354281CF0 /* Pod */,
 				1D355400B5F38A6F13C0240F5315A32D /* Support Files */,
+				1C2F4E67260A2CD300080403 /* LoggerPodDummy.swift */,
 			);
 			name = LoggerPod;
 			path = ../..;
@@ -317,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					9A80C2D8185F540FF49447D6850F468E = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,8 +372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2F4E68260A2CD300080403 /* LoggerPodDummy.swift in Sources */,
 				7110EB4270863059B159A4B81248E14C /* LoggerPod-dummy.m in Sources */,
-				07BD515B3AF8FE55859E1D51475D84B0 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49B932E14C066C91ABF11DF091AC910E /* LoggerPod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -528,6 +534,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -539,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD0E0D785C5E9D1A87196495712B2E1C /* LoggerPod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -686,8 +694,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
