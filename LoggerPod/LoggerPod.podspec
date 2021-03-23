@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LoggerPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LoggerPod.'
+  s.summary          = 'This pod is used for testing nested podspecs'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+We will use this pod to test how to work with nested podspecs. All the best Rohan!
                        DESC
 
   s.homepage         = 'https://github.com/therohansanap/Modules.git'
@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rohan Dilip Sanap' => 'sanaprohan10@gmail.com' }
   s.source           = { :git => 'https://github.com/therohansanap/Modules.git' }
+  # s.source           = { :git => 'https://github.com/therohansanap/Modules/tree/main/LoggerPod' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
